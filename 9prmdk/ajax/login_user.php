@@ -11,7 +11,7 @@
 		if ($resp->isSuccess()) {
 			$login = $_POST['login'];
 			$password = $_POST['password'];
-			
+			 
 			$url = 'http://localhost/9prmdk/auth.permaviat.ru/index.php';
 			$ch = curl_init($url);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

@@ -13,7 +13,7 @@
         $payload = [
             "userId" => $read_user['id'], 
             "userRole" => $read_user['roll']  
-        ];
+        ]; 
 
         $SECRET_KEY = 'cAtwa1kkEy'; 
 

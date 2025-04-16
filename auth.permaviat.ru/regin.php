@@ -19,7 +19,7 @@
         $header = ["typ" => "JWT", "alg" => "sha256"];
         $payload = [
             "userId" => $id, 
-            "userRole" => $role  
+            "userRole" => $role   
         ];
 
         $SECRET_KEY = 'cAtwa1kkEy'; 
